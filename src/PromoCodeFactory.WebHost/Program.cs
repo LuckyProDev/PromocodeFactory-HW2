@@ -1,12 +1,9 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace PromoCodeFactory.WebHost
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+namespace PromoCodeFactory.WebHost {
+    public class Program {
+        public static void Main(string[] args) {
             CreateHostBuilder(args).Build().Run();
         }
 

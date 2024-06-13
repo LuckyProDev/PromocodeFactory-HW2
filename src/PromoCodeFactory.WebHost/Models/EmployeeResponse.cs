@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PromoCodeFactory.WebHost.Models
-{
-    public class EmployeeResponse
-    {
+namespace PromoCodeFactory.WebHost.Models {
+    public class EmployeeResponse {
         public Guid Id { get; set; }
 
         public string FullName { get; set; }
